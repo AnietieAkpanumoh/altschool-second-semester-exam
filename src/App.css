@@ -70,7 +70,7 @@ button:hover {
 .main-repodata {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .repodataBtn {
@@ -137,8 +137,8 @@ ul {
 }
 
 h3 {
-    font-size: 1.1rem;
-    color: grey;
+    font-size: 1.2rem;
+    color: #095a90;
 }
 
 h3:hover {

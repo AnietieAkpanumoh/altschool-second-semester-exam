@@ -60,7 +60,7 @@ export default function ApiFetch() {
                             .map((data) => (
                                 <li key={data.id} className="list">
                                     <Link to={`/repositories/${data.name}`}>
-                                        <div>{data.avatar}</div>
+                                        {/* <div>{data.avatar}</div> */}
                                         <h3>{data.name}</h3>
                                     </Link>
                                 </li>
