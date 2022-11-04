@@ -23,6 +23,7 @@ function Navbar() {
                 </svg>
                 <Link to="/">Home</Link>
                 <Link to="Repositories">Repositories</Link>
+                <Link to="undefined">404</Link>
             </nav>
         </div>
     );

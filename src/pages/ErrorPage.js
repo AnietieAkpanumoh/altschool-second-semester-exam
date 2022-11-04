@@ -1,9 +1,10 @@
 import React from "react";
+import img from '../404-error.jpg';
 
 const ErrorPage = () => {
     return (
-        <div>
-            <h1 className="errorpage">404 Page</h1>
+        <div className="img">
+           <img src={img} width="500" height="300" alt="404-error"/>
         </div>
     );
 };
