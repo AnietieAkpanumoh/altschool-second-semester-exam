@@ -1,7 +1,8 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
+
 
 function Nested() {
     const param = useParams();
@@ -13,6 +14,12 @@ function Nested() {
             setRepoData(response.data);
         });
     }, [param]);
+
+    const navigate = useNavigate();
+
+    const navigateToRepo = () => {
+      navigate('/repositories/');
+    };
 
     return (
         <>
@@ -57,7 +64,7 @@ function Nested() {
                         </li>
                     </ul>
                 </div>
-                <button className="repodataBtn">GO BACK</button>
+                <button onClick={navigateToRepo} className="repodataBtn">GO BACK</button>
             </div>
         </>
     );
