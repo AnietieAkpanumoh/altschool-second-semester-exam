@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Live Demo
 
-- Vercel: Click [here](https://anietieakpanumoh.github.io/Navbar-toggle/) to explore the application.
+- Vercel: Click [https://altschool-second-semester-exam-zeta.vercel.app/) to explore the application.
 
 ## Available Scripts
 
