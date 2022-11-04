@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Live Demo
 
-- Vercel: Click [https://altschool-second-semester-exam-zeta.vercel.app/) to explore the application.
+- Vercel: Click [here](https://altschool-second-semester-exam-zeta.vercel.app/) to explore the application.
 
 ## Available Scripts
 
