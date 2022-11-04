@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+
+### Live Demo
+
+- Vercel: Click [here](https://anietieakpanumoh.github.io/Navbar-toggle/) to explore the application.
 
 ## Available Scripts
 
